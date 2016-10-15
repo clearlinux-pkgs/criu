@@ -27,6 +27,9 @@ libcriu.so.1:criu_features__pack
 libcriu.so.1:criu_features__pack_to_buffer
 libcriu.so.1:criu_features__unpack
 libcriu.so.1:criu_init_opts
+libcriu.so.1:criu_local_add_cg_dump_controller
+libcriu.so.1:criu_local_add_cg_props
+libcriu.so.1:criu_local_add_cg_props_file
 libcriu.so.1:criu_local_add_cg_root
 libcriu.so.1:criu_local_add_enable_fs
 libcriu.so.1:criu_local_add_ext_mount
@@ -50,6 +53,7 @@ libcriu.so.1:criu_local_set_ext_sharing
 libcriu.so.1:criu_local_set_ext_unix_sk
 libcriu.so.1:criu_local_set_file_locks
 libcriu.so.1:criu_local_set_force_irmap
+libcriu.so.1:criu_local_set_freeze_cgroup
 libcriu.so.1:criu_local_set_ghost_limit
 libcriu.so.1:criu_local_set_images_dir_fd
 libcriu.so.1:criu_local_set_leave_running
@@ -68,6 +72,8 @@ libcriu.so.1:criu_local_set_service_comm
 libcriu.so.1:criu_local_set_service_fd
 libcriu.so.1:criu_local_set_shell_job
 libcriu.so.1:criu_local_set_tcp_established
+libcriu.so.1:criu_local_set_tcp_skip_in_flight
+libcriu.so.1:criu_local_set_timeout
 libcriu.so.1:criu_local_set_track_mem
 libcriu.so.1:criu_local_set_work_dir_fd
 libcriu.so.1:criu_notify__free_unpacked
@@ -119,6 +125,7 @@ libcriu.so.1:criu_set_ext_sharing
 libcriu.so.1:criu_set_ext_unix_sk
 libcriu.so.1:criu_set_file_locks
 libcriu.so.1:criu_set_force_irmap
+libcriu.so.1:criu_set_freeze_cgroup
 libcriu.so.1:criu_set_ghost_limit
 libcriu.so.1:criu_set_images_dir_fd
 libcriu.so.1:criu_set_leave_running
@@ -137,6 +144,8 @@ libcriu.so.1:criu_set_service_comm
 libcriu.so.1:criu_set_service_fd
 libcriu.so.1:criu_set_shell_job
 libcriu.so.1:criu_set_tcp_established
+libcriu.so.1:criu_set_tcp_skip_in_flight
+libcriu.so.1:criu_set_timeout
 libcriu.so.1:criu_set_track_mem
 libcriu.so.1:criu_set_work_dir_fd
 libcriu.so.1:criu_veth_pair__free_unpacked
@@ -157,6 +166,12 @@ libcriu.so.1:inherit_fd__init
 libcriu.so.1:inherit_fd__pack
 libcriu.so.1:inherit_fd__pack_to_buffer
 libcriu.so.1:inherit_fd__unpack
+libcriu.so.1:join_namespace__free_unpacked
+libcriu.so.1:join_namespace__get_packed_size
+libcriu.so.1:join_namespace__init
+libcriu.so.1:join_namespace__pack
+libcriu.so.1:join_namespace__pack_to_buffer
+libcriu.so.1:join_namespace__unpack
 libcriu.so.1:unix_sk__free_unpacked
 libcriu.so.1:unix_sk__get_packed_size
 libcriu.so.1:unix_sk__init
