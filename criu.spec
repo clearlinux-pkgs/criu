@@ -4,7 +4,7 @@
 #
 Name     : criu
 Version  : 2.7
-Release  : 8
+Release  : 9
 URL      : https://github.com/xemul/criu/archive/v2.7.tar.gz
 Source0  : https://github.com/xemul/criu/archive/v2.7.tar.gz
 Summary  : RPC library for userspace checkpoint and restore
